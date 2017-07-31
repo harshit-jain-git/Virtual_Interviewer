@@ -37,6 +37,8 @@ function handler(req, res) {
             res.end("Sorry we could not find the file you asked for");
         }
     })
-}).listen(port, host, function() {
+}
+
+server.listen(port, host, function() {
     console.log('Server Running on http://' + host + ':' + port);
-};
+});
