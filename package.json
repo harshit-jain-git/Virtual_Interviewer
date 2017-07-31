@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/harshitjain1371999/Virtual_Interviewer#readme",
   "dependencies": {
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.0.3",
+    "watson-developer-cloud": "^2.37.0"
   }
 }
