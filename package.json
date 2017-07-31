@@ -1,0 +1,22 @@
+{
+  "name": "virtual_interviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitjain1371999/Virtual_Interviewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitjain1371999/Virtual_Interviewer/issues"
+  },
+  "homepage": "https://github.com/harshitjain1371999/Virtual_Interviewer#readme",
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  }
+}
