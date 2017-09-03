@@ -55,7 +55,7 @@ function RecognizerStart(SDK, recognizer) {
     case "SpeechDetailedPhraseEvent" :
         UpdateRecognizedPhrase(JSON.stringify(event.Result, null, 3));
         break;
-    case "RecognitionEndedEvent" :
+    case "RecognitionEndedEvent":
         OnComplete();
         UpdateStatus("Idle");
         console.log(JSON.stringify(event)); // Debug information
