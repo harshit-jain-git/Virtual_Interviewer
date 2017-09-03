@@ -2,9 +2,200 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2ebde5-fdda-4927-9736-b0eb5572ccfd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extsprintf/Makefile.deps" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/extsprintf/examples/simple.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/tests/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/tests/spec/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/tests/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/tests/spec/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-function-x/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-function-x/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-function-x/tests/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-function-x/tests/spec/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/tests/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/tests/spec/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/tests/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/tests/spec/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/Makefile.targ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/examples/levels-verror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/examples/levels-werror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/examples/varargs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/examples/verror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/examples/werror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/jsl.node.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/tests/tst.inherit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/tests/tst.verror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/verror/tests/tst.werror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watson-developer-cloud/package-lock.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/NLP.js" afterPath="$PROJECT_DIR$/nlp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layout/styles/layout.css" afterPath="$PROJECT_DIR$/layout/styles/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/.gitmodules" afterPath="$PROJECT_DIR$/node_modules/extsprintf/.gitmodules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/LICENSE" afterPath="$PROJECT_DIR$/node_modules/extsprintf/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/Makefile" afterPath="$PROJECT_DIR$/node_modules/extsprintf/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/Makefile.targ" afterPath="$PROJECT_DIR$/node_modules/extsprintf/Makefile.targ" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/README.md" afterPath="$PROJECT_DIR$/node_modules/extsprintf/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/jsl.node.conf" afterPath="$PROJECT_DIR$/node_modules/extsprintf/jsl.node.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/lib/extsprintf.js" afterPath="$PROJECT_DIR$/node_modules/extsprintf/lib/extsprintf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/extsprintf/package.json" afterPath="$PROJECT_DIR$/node_modules/extsprintf/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.nvmrc" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.nvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.uglifyjsrc.json" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/.uglifyjsrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/LICENSE" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/README.md" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/badges.html" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/index.js" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.js" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js.map" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/lib/has-symbol-support-x.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-symbol-support-x/package.json" afterPath="$PROJECT_DIR$/node_modules/has-symbol-support-x/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.nvmrc" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.nvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.uglifyjsrc.json" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/.uglifyjsrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/LICENSE" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/README.md" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/badges.html" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/index.js" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.js" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js.map" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/lib/has-to-string-tag-x.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/package.json" afterPath="$PROJECT_DIR$/node_modules/has-to-string-tag-x/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.npmignore" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.nvmrc" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.nvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.uglifyjsrc.json" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/.uglifyjsrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/LICENSE" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/README.md" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/badges.html" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/index.js" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/lib/is-array-buffer-x.js" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/lib/is-array-buffer-x.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/lib/is-array-buffer-x.min.js" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/lib/is-array-buffer-x.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/lib/is-array-buffer-x.min.js.map" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/lib/is-array-buffer-x.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/package.json" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/tests/index.html" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/tests/run.js" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/tests/run.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-array-buffer-x/tests/spec/test.js" afterPath="$PROJECT_DIR$/node_modules/is-array-buffer-x/tests/spec/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/is-function-x/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/is-function-x/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/is-function-x/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/.nvmrc" afterPath="$PROJECT_DIR$/node_modules/is-function-x/.nvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/is-function-x/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/.uglifyjsrc.json" afterPath="$PROJECT_DIR$/node_modules/is-function-x/.uglifyjsrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/LICENSE" afterPath="$PROJECT_DIR$/node_modules/is-function-x/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/README.md" afterPath="$PROJECT_DIR$/node_modules/is-function-x/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/badges.html" afterPath="$PROJECT_DIR$/node_modules/is-function-x/badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/index.js" afterPath="$PROJECT_DIR$/node_modules/is-function-x/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/lib/is-function-x.js" afterPath="$PROJECT_DIR$/node_modules/is-function-x/lib/is-function-x.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/lib/is-function-x.min.js" afterPath="$PROJECT_DIR$/node_modules/is-function-x/lib/is-function-x.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/lib/is-function-x.min.js.map" afterPath="$PROJECT_DIR$/node_modules/is-function-x/lib/is-function-x.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-function-x/package.json" afterPath="$PROJECT_DIR$/node_modules/is-function-x/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/.nvmrc" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/.nvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/.uglifyjsrc.json" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/.uglifyjsrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/LICENSE" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/README.md" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/badges.html" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/index.js" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/lib/is-object-like-x.js" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/lib/is-object-like-x.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/lib/is-object-like-x.min.js" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/lib/is-object-like-x.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/lib/is-object-like-x.min.js.map" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/lib/is-object-like-x.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/is-object-like-x/package.json" afterPath="$PROJECT_DIR$/node_modules/is-object-like-x/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jsprim/CHANGES.md" afterPath="$PROJECT_DIR$/node_modules/jsprim/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jsprim/LICENSE" afterPath="$PROJECT_DIR$/node_modules/jsprim/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jsprim/README.md" afterPath="$PROJECT_DIR$/node_modules/jsprim/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jsprim/lib/jsprim.js" afterPath="$PROJECT_DIR$/node_modules/jsprim/lib/jsprim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jsprim/package.json" afterPath="$PROJECT_DIR$/node_modules/jsprim/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/nan/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/LICENSE.md" afterPath="$PROJECT_DIR$/node_modules/nan/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/README.md" afterPath="$PROJECT_DIR$/node_modules/nan/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/asyncworker.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/asyncworker.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/buffers.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/buffers.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/callback.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/callback.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/converters.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/converters.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/errors.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/errors.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/json.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/json.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/maybe_types.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/maybe_types.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/methods.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/methods.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/new.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/new.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/node_misc.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/node_misc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/object_wrappers.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/object_wrappers.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/persistent.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/persistent.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/scopes.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/scopes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/script.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/script.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/string_bytes.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/string_bytes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/v8_internals.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/v8_internals.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/doc/v8_misc.md" afterPath="$PROJECT_DIR$/node_modules/nan/doc/v8_misc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/include_dirs.js" afterPath="$PROJECT_DIR$/node_modules/nan/include_dirs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_callbacks.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_12_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_12_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_pre_12_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_pre_12_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_converters.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters_43_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_converters_43_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters_pre_43_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_converters_pre_43_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_implementation_12_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_implementation_12_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_implementation_pre_12_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_implementation_pre_12_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_json.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_json.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_maybe_43_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_maybe_43_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_maybe_pre_43_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_maybe_pre_43_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_new.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_new.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_object_wrap.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_object_wrap.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_persistent_12_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_persistent_12_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_persistent_pre_12_inl.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_persistent_pre_12_inl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_private.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_private.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_string_bytes.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_string_bytes.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_typedarray_contents.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_typedarray_contents.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/nan_weak.h" afterPath="$PROJECT_DIR$/node_modules/nan/nan_weak.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/package.json" afterPath="$PROJECT_DIR$/node_modules/nan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/tools/1to2.js" afterPath="$PROJECT_DIR$/node_modules/nan/tools/1to2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/tools/README.md" afterPath="$PROJECT_DIR$/node_modules/nan/tools/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/nan/tools/package.json" afterPath="$PROJECT_DIR$/node_modules/nan/tools/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/.nvmrc" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/.nvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/.uglifyjsrc.json" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/.uglifyjsrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/LICENSE" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/README.md" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/badges.html" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/index.js" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/lib/to-string-tag-x.js" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/lib/to-string-tag-x.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/lib/to-string-tag-x.min.js" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/lib/to-string-tag-x.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/lib/to-string-tag-x.min.js.map" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/lib/to-string-tag-x.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/to-string-tag-x/package.json" afterPath="$PROJECT_DIR$/node_modules/to-string-tag-x/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/verror/.npmignore" afterPath="$PROJECT_DIR$/node_modules/verror/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/verror/LICENSE" afterPath="$PROJECT_DIR$/node_modules/verror/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/verror/README.md" afterPath="$PROJECT_DIR$/node_modules/verror/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/verror/lib/verror.js" afterPath="$PROJECT_DIR$/node_modules/verror/lib/verror.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/verror/package.json" afterPath="$PROJECT_DIR$/node_modules/verror/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.eslintignore" afterPath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.gitattributes" afterPath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.github/issue_template.md" afterPath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.github/issue_template.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.github/pull_request_template.md" afterPath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.github/pull_request_template.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.npmignore" afterPath="$PROJECT_DIR$/node_modules/watson-developer-cloud/.npmignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +207,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="tone_analyzer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tone_analyzer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2163">
-              <caret line="103" column="32" lean-forward="false" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3759#3767#0" expanded="true" />
-                <element signature="e#4151#4159#0" expanded="true" />
-                <element signature="e#4539#4547#0" expanded="true" />
-                <element signature="e#4944#4952#0" expanded="true" />
-                <element signature="e#5367#5375#0" expanded="true" />
-                <element signature="e#9249#9255#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,20 +220,38 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="587">
+              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.html">
+      <file leaf-file-name="tone.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tone.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nlp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nlp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Speech_to_text.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Speech_to_text.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="75" column="1" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -62,10 +262,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hoc</find>
+      <find>container</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,9 +285,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/layout/styles/layout.css" />
+        <option value="$PROJECT_DIR$/NLP.js" />
+        <option value="$PROJECT_DIR$/input.json" />
+        <option value="$PROJECT_DIR$/layout/styles/main.css" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/nlp.js" />
+        <option value="$PROJECT_DIR$/speech.browser.sdk.js" />
+        <option value="$PROJECT_DIR$/Sample.html" />
+        <option value="$PROJECT_DIR$/Speech_to_text.js" />
       </list>
     </option>
   </component>
@@ -94,13 +309,13 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -113,13 +328,33 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_Interviewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Virtual_Interviewer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -457,6 +692,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -515,6 +753,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -534,15 +785,19 @@
       <updated>1501481017480</updated>
       <workItem from="1501481019045" duration="5137000" />
       <workItem from="1501489572800" duration="5000000" />
+      <workItem from="1501515852255" duration="5219000" />
+      <workItem from="1501581178257" duration="7436000" />
+      <workItem from="1501752144863" duration="120000" />
+      <workItem from="1502335839681" duration="290000" />
+      <workItem from="1504349752308" duration="5934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10137000" />
+    <option name="totallyTimeSpent" value="29136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1918" height="1028" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -558,7 +813,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12757872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -571,8 +826,38 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12137487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -589,19 +874,236 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tone_analyzer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3759#3767#0" expanded="true" />
-            <element signature="e#4151#4159#0" expanded="true" />
-            <element signature="e#4539#4547#0" expanded="true" />
-            <element signature="e#4944#4952#0" expanded="true" />
-            <element signature="e#5367#5375#0" expanded="true" />
-            <element signature="e#9249#9255#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6607#6613#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="7" lean-forward="false" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tone_analyzer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6607#6613#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tone_analyzer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6607#6613#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="30" lean-forward="true" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tone_analyzer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2163">
+          <caret line="103" column="32" lean-forward="false" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6607#6613#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6607#6613#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -618,45 +1120,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/layout/index.html" />
     <entry file="file://$PROJECT_DIR$/images/index.html" />
+    <entry file="file://$PROJECT_DIR$/layout/styles/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/npm-debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/demo/backgrounds/03.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tone.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="43" column="3" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="587">
+          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2163">
-          <caret line="103" column="32" lean-forward="false" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+        <state relative-caret-position="168">
+          <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3759#3767#0" expanded="true" />
-            <element signature="e#4151#4159#0" expanded="true" />
-            <element signature="e#4539#4547#0" expanded="true" />
-            <element signature="e#4944#4952#0" expanded="true" />
-            <element signature="e#5367#5375#0" expanded="true" />
-            <element signature="e#9249#9255#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6607#6613#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="42">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tone_analyzer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speech.browser.sdk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1733">
+          <caret line="3786" column="3" lean-forward="false" selection-start-line="3786" selection-start-column="3" selection-end-line="3786" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1638">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Speech_to_text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="75" column="1" lean-forward="false" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding />
         </state>
       </provider>

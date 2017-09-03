@@ -11,6 +11,10 @@ File: Layout CSS
 @import url("font-awesome.min.css");
 @import url("framework.css");
 
+.group {
+	align-content: center;
+}
+
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1{border-bottom:1px solid;}

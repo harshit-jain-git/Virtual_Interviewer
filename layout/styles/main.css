@@ -1,0 +1,52 @@
+body {
+    min-height: 100%;
+    height: 100%;
+    background-image: url("../../images/demo/backgrounds/bg.jpg");
+}
+
+.body-wrapper {
+    min-height: 100%;
+    height: 100%;
+}
+
+.content-header {
+    text-align: center;
+    font-family: Chiller;
+    font-size: 100%;
+}
+
+.chat_space {
+    min-height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.bot_reply, .my_answer {
+    width: 30%;
+}
+
+.my_answer {
+    align-self: flex-end;
+}
+
+.chat_space .bot_reply_list .reply {
+    border: 1px dashed green;
+    text-align: left;
+    font-size: larger;
+    font-family: "Bradley Hand ITC";
+    list-style-type: none;
+}
+
+.chat_space .my_answer .answer {
+    border: 1px dashed green;
+    font-size: larger;
+    text-align: right;
+    font-family: "Bradley Hand ITC";
+    list-style-type: none;
+}
+
+.message_form {
+    margin-left: 5px;
+    align-content: center;
+    width: 80%;
+}
