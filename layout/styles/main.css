@@ -621,3 +621,19 @@ body {
     display: none; }
 .js-toggle-summary-json_hide {
     display: none; }
+
+
+.summary-emotion, .summary-writing, .summary-social{
+    height: auto;
+    margin-bottom: 30px;
+}
+.bar-graph--bar{
+    background-color: #eeeeee;
+    height: 20px;
+}
+.bar-graph--bar-value{
+    height: 20px;
+}
+.bar-graph--row{
+    border-bottom: 1px solid #ccc;
+}
