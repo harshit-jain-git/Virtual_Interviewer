@@ -1,7 +1,14 @@
-// Resolve the SDK dependecy using RequireJs
+var requirejs = require('requirejs');
 require(["Speech.Browser.Sdk"], function(SDK) {
     // Now start using the SDK
 });
+
+requirejs.config({
+    //Pass the top-level main.js/index.js require
+    //function to requirejs so that node modules
+    //are loaded relative to the top-level JS file.
+    nodeRequire: require('./scripts/main')
+})
 
 // Setup the recongizer
 function RecognizerSetup(SDK, recognitionMode, language, format, subscriptionKey) {
@@ -55,7 +62,7 @@ function RecognizerStart(SDK, recognizer) {
     case "SpeechDetailedPhraseEvent" :
         UpdateRecognizedPhrase(JSON.stringify(event.Result, null, 3));
         break;
-    case "RecognitionEndedEvent":
+    case "RecognitionEndedEvent" :
         OnComplete();
         UpdateStatus("Idle");
         console.log(JSON.stringify(event)); // Debug information
