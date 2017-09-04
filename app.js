@@ -59,7 +59,7 @@ io.on('connection', function (socket) {
         // Tone Analyzer
         var params = {
             // Get the text from the JSON file.
-            text: java_object.text,
+            text: text_object.text,
             tones: ['emotion', 'language', 'social']
         };
 

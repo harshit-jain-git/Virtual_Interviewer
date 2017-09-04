@@ -1,11 +1,11 @@
 $(function() {
-    var socket = io('http://localhost');
+    var socket = io();
 
     var $textInput = $('#textInput'),
         $submit_button = $('.submit_button'),
         text_object = {"text":""},
         text = "";
-    
+
     // Applied globally on all textareas with the "autoExpand" class
     $(document)
         .one('focus.autoExpand', 'textarea.autoExpand', function(){
