@@ -1,7 +1,3 @@
-/**
- * Created by Co on 7/31/2017.
- */
-
 var http = require('http'),
     server = http.createServer(handler),
     io = require('socket.io')(server),
@@ -18,6 +14,20 @@ var mimes = {
     ".jpg" : "image/jpeg",
     ".png" : "image/png"
 };
+
+var ToneAnalyzerV3 = require('watson-developer-cloud/tone-analyzer/v3');
+var tone_analyzer = new ToneAnalyzerV3({
+    username: 'c27d21d1-5fe7-4df8-8982-7c48402afb4f',
+    password: 'rM27eng8EKLq',
+    version_date: '2016-05-19'
+});
+
+var NaturalLanguageUnderstandingV1 = require('watson-developer-cloud/natural-language-understanding/v1.js');
+var natural_language_understanding = new NaturalLanguageUnderstandingV1({
+    'username': 'd2af5244-f852-4eac-90a4-9ce15051f7b3',
+    'password': 'ESqWCUfthsSU',
+    'version_date': '2017-02-27'
+});
 
 function handler(req, res) {
     var filepath = (req.url === '/') ? ('./index.html') : ('.' + req.url);
@@ -38,6 +48,55 @@ function handler(req, res) {
         }
     })
 }
+
+io.on('connection', function (socket) {
+
+    socket.on('analyzetone', function (text_object) {
+        // Tone Analyzer
+        var params = {
+            // Get the text from the JSON file.
+            text: java_object.text,
+            tones: ['emotion', 'language', 'social']
+        };
+
+        tone_analyzer.tone(params, function(error, response) {
+                if (error)
+                    console.log('error:', error);
+                else
+                    console.log(JSON.stringify(response, null, 2));
+            }
+        );
+    });
+
+    socket.on('nlp', function (text_object) {
+        // Natural Language Understanding
+        var parameters = {
+            'text': text_object.text,
+            'features': {
+                'entities': {
+                    'emotion': true,
+                    'sentiment': true,
+                    'limit': 2
+                },
+                'keywords': {
+                    'emotion': true,
+                    'sentiment': true,
+                    'limit': 2
+                },
+                'concepts': {
+                    'limit': 3
+                }
+            }
+        };
+
+        natural_language_understanding.analyze(parameters, function(err, response) {
+            if (err)
+                console.log('error:', err);
+            else
+                console.log(JSON.stringify(response, null, 2));
+        });
+    });
+});
 
 server.listen(port, host, function() {
     console.log('Server Running on http://' + host + ':' + port);

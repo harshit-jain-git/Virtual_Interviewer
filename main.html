@@ -6,6 +6,8 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="layout/styles/main.css" rel="stylesheet" type="text/css">
+
+    <script src="layout/scripts/main.js" rel="script"></script>
 </head>
 <body class="body-wrapper">
     <div class="body-content">
@@ -15,17 +17,17 @@
         <section class="chat_space">
             <div class="bot_reply">
                 <ul class="bot_reply_list">
-                    <li class="reply">Hi, There !!</li>
+                    <li class="reply question">Hi, There !!</li>
                 </ul>
             </div>
         </section>
         <div class="my_message">
             <form class="message_form">
                 <div class="form-group form-area">
-                    <textarea class="form-control autoExpand" rows="3" data-min-rows="5" id="user-response" title="user-response"></textarea>
+                    <textarea id = "textInput" class="form-control autoExpand" rows="3" data-min-rows="5" id="user-response" title="user-response"></textarea>
                 </div>
                 <div class="submit-button">
-                    <button type="submit" class="btn btn-default" id="message-submit">Submit</button>
+                    <button type="submit" class="btn btn-default submit_button" id="message-submit">Submit</button>
                 </div>
             </form>
         </div>
