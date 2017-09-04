@@ -1,9 +1,11 @@
 $(function() {
+    var socket = io('http://localhost');
+
     var $textInput = $('#textInput'),
-        $submit_button = $('submit_button'),
+        $submit_button = $('.submit_button'),
         text_object = {"text":""},
         text = "";
-
+    
     // Applied globally on all textareas with the "autoExpand" class
     $(document)
         .one('focus.autoExpand', 'textarea.autoExpand', function(){
@@ -24,9 +26,12 @@ $(function() {
         return $('<div/>').text(input).text();
     }
 
-    $submit_button.onclick(function () {
+    $submit_button.click(function (e) {
+        e.preventDefault();
         text = cleanInput($textInput.val().trim());
-        text_object = JSON.parse(text);
+        console.log(text);
+        console.log($submit_button);
+        text_object['text'] = text;
         socket.emit('analyzetone', text_object);
         socket.emit('nlp', text_object);
     });

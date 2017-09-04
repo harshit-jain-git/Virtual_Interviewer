@@ -15,6 +15,10 @@ var mimes = {
     ".png" : "image/png"
 };
 
+server.listen(port, host, function() {
+    console.log('Server Running on http://' + host + ':' + port);
+});
+
 var ToneAnalyzerV3 = require('watson-developer-cloud/tone-analyzer/v3');
 var tone_analyzer = new ToneAnalyzerV3({
     username: 'c27d21d1-5fe7-4df8-8982-7c48402afb4f',
@@ -98,6 +102,4 @@ io.on('connection', function (socket) {
     });
 });
 
-server.listen(port, host, function() {
-    console.log('Server Running on http://' + host + ':' + port);
-});
+
