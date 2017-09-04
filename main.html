@@ -30,6 +30,45 @@
                 </div>
             </form>
         </div>
+
+        <!--Hidden div for showing results-->
+        <div class="output">
+
+            <h2>Document-level</h2>
+            <div class="summary-row">
+
+                <div class="summary-emotion">
+                    <h3 class="summary-header">Emotion</h3>
+                    <p class="summary-score-desc">
+                        &lt; .5 = not likely present <br> &gt; .5 = likely present <br> &gt; .75 = very likely present <br>
+                    </p>
+                    <div class="summary-emotion-graph bar-graph"></div>
+                </div>
+
+                <div class="summary-writing">
+                    <h3 class="summary-header">Language Style</h3>
+                    <p class="summary-score-desc">
+                        &lt; .5 = not likely present <br> &gt; .5 = likely present <br> &gt; .75 = very likely present <br>
+                    </p>
+                    <div class="summary-writing-graph bar-graph"></div>
+                </div>
+
+                <div class="summary-social">
+                    <h3 class="summary-header">Social Tendencies</h3>
+                    <p class="summary-score-desc">
+                        &lt; .5 = not likely present <br> &gt; .5 = likely present <br> &gt; .75 = very likely present <br>
+                    </p>
+                    <div class="summary-social-graph bar-graph"></div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
     </div>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
