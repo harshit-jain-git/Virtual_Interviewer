@@ -185,6 +185,18 @@ body {
     background-color: #FFD629; }
 .summary-emotion-graph--bar-value_Sadness {
     background-color: #086DB2; }
+.summary-emotion-graph--bar-value_Confident {
+    background-color: #1cb4a0; }
+.summary-emotion-graph--bar-value_Analytical {
+    background-color: #075CD8; }
+.summary-emotion-graph--bar-value_Openness {
+    background-color: navajowhite; }
+.summary-emotion-graph--bar-value_Extraversion {
+    background-color: #CBCBCB; }
+.summary-emotion-graph--bar-value_Agreeableness {
+    background-color: #FE0000; }
+.summary-emotion-graph--bar-value_Conscientiousness {
+    background-color: #FFD629; }
 .summary-emotion-graph--bar-tooltip_Anger {
     position: absolute;
     background-color: #E80521;

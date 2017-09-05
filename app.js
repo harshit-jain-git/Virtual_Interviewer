@@ -15,8 +15,6 @@ var mimes = {
     ".png" : "image/png"
 };
 
-var default_response = require('./example.json');
-
 server.listen(port, host, function() {
     console.log('Server Running on http://' + host + ':' + port);
 });
@@ -57,14 +55,13 @@ function handler(req, res) {
 
 io.on('connection', function (socket) {
 
-    socket.emit('default_json',default_response);
+    // socket.emit('default_json',default_response);
 
     socket.on('analyzetone', function (text_object) {
         // Tone Analyzer
         var params = {
             // Get the text from the JSON file.
             text: text_object.text,
-            tones: ['emotion', 'language', 'social']
         };
 
         tone_analyzer.tone(params, function(error, response) {
@@ -72,7 +69,7 @@ io.on('connection', function (socket) {
                     console.log('error:', error);
                 else{
                     console.log(JSON.stringify(response, null, 2));
-                    socket.emit('tone_analyze',default_response);
+                    socket.emit('tone_analyze',response);
                 }
             }
         );
@@ -103,8 +100,8 @@ io.on('connection', function (socket) {
             if (err)
                 console.log('error:', err);
             else
-                socket.emit('nlp', response);
                 console.log(JSON.stringify(response, null, 2));
+                socket.emit('nlp', response);
         });
     });
 });

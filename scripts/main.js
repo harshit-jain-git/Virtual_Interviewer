@@ -4,7 +4,20 @@ $(function() {
     var $textInput = $('#textInput'),
         $submit_button = $('.submit_button'),
         text_object = {"text":""},
-        text = "";
+        text = "",
+        index = 0,
+        $question = $('.question');
+        questions = [
+            'Tell me about yourself',
+            'Why should we hire you?',
+            'What are your strengths and weaknesses?',
+            'Why do you want to work at our company?',
+            'How do you see yourself in five years?',
+            'Explain how would you be an asset to this organization?',
+            'What is the difference between confidence and overconfidence?',
+            'How do you define success and how do you measure up to your own definition?',
+            'How much salary do you expect?',
+            'On a scale of one to ten, rate me as an interviewer?'];
 
 
     // Applied globally on all textareas with the "autoExpand" class
@@ -34,36 +47,26 @@ $(function() {
         console.log($submit_button);
         text_object['text'] = text;
         socket.emit('analyzetone', text_object);
-        socket.emit('nlp', text_object);
+        // socket.emit('nlp', text_object);
     });
     
     
-    socket.on('tone_analyze',function (output) {
-        console.log(JSON.stringify(output));
-    });
-    
-    socket.on('nlp', function (output)  {
-        
-    });
-
-    socket.on('default_json', function (res) {
+    socket.on('tone_analyze',function (res) {
         var json = res.document_tone;
-
+        console.log(json);
         var emotion_graph = $('.summary-emotion-graph');
-
-
 
         for(var j = 0; j < 3; j++){
             graphs = $('.bar-graph')[j];
+            graphs.innerHTML = '';
             var emotions = json.tone_categories[j].tones;
 
             console.log(graphs);
 
             for( var i = 0; i < emotions.length; i++){
 
-                var emotion = emotions[i].tone_id;
+                var emotion = emotions[i].tone_name;
                 var score = emotions[i].score;
-                emotion = emotion.charAt(0).toUpperCase() + emotion.slice(1);  // capitalize first letter
 
                 var likeliness = "UNLIKELY";
 
@@ -89,8 +92,10 @@ $(function() {
                 // emotion_graph.html(emotion_graph.html() + innerHTML);
                 graphs.innerHTML += innerHTML;
             }
-
         }
+    });
+    
+    socket.on('nlp', function (res)  {
     });
 
     function round(value, decimals) {
