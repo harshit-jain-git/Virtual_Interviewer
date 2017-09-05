@@ -19,6 +19,8 @@ $(function() {
             'How much salary do you expect?',
             'On a scale of one to ten, rate me as an interviewer?'];
 
+        // Initiate the first question ...
+        $question.html(questions[index++]);
 
     // Applied globally on all textareas with the "autoExpand" class
     $(document)
@@ -43,9 +45,10 @@ $(function() {
     $submit_button.click(function (e) {
         e.preventDefault();
         text = cleanInput($textInput.val().trim());
-        console.log(text);
-        console.log($submit_button);
+        // console.log(text);
+        // console.log($submit_button);
         text_object['text'] = text;
+        $textInput.val('');
         socket.emit('analyzetone', text_object);
         // socket.emit('nlp', text_object);
     });
@@ -53,7 +56,7 @@ $(function() {
     
     socket.on('tone_analyze',function (res) {
         var json = res.document_tone;
-        console.log(json);
+        // console.log(json);
         var emotion_graph = $('.summary-emotion-graph');
 
         for(var j = 0; j < 3; j++){
@@ -61,7 +64,7 @@ $(function() {
             graphs.innerHTML = '';
             var emotions = json.tone_categories[j].tones;
 
-            console.log(graphs);
+            // console.log(graphs);
 
             for( var i = 0; i < emotions.length; i++){
 
@@ -93,6 +96,7 @@ $(function() {
                 graphs.innerHTML += innerHTML;
             }
         }
+        $question.html(questions[index++]);
     });
     
     socket.on('nlp', function (res)  {

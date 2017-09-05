@@ -68,7 +68,7 @@ io.on('connection', function (socket) {
                 if (error)
                     console.log('error:', error);
                 else{
-                    console.log(JSON.stringify(response, null, 2));
+                    // console.log(JSON.stringify(response, null, 2));
                     socket.emit('tone_analyze',response);
                 }
             }
@@ -100,7 +100,7 @@ io.on('connection', function (socket) {
             if (err)
                 console.log('error:', err);
             else
-                console.log(JSON.stringify(response, null, 2));
+                // console.log(JSON.stringify(response, null, 2));
                 socket.emit('nlp', response);
         });
     });
