@@ -4,7 +4,12 @@ var http = require('http'),
     fs = require('fs'),
     path = require('path'),
     host = '127.0.0.1',
-    port = '9000';
+    port = '9000',
+    recognizer,
+    SDK;
+
+var requirejs = require('requirejs');
+var key = '84f6f3d93f0e47839ff0fb6e984968ab';
 
 var mimes = {
     ".html" : "text/html",
@@ -33,6 +38,81 @@ var natural_language_understanding = new NaturalLanguageUnderstandingV1({
     'version_date': '2017-02-27'
 });
 
+// Speech to Text ..
+
+function Initialize(onComplete) {
+            require('./node_modules/microsoft-speech-browser-sdk/Speech.Browser.Sdk', function(SDK) {
+                onComplete(SDK);
+            });
+        }
+
+// require(["Speech.Browser.Sdk"], function(SDK) {
+//     // Now start using the SDK
+// });
+// Setup the recongizer
+function RecognizerSetup(SDK, recognitionMode, language, format, subscriptionKey) {
+    var recognizerConfig = new SDK.RecognizerConfig(new SDK.SpeechConfig(new SDK.Context(new SDK.OS(navigator.userAgent, "Browser", null), new SDK.Device("SpeechSample", "SpeechSample", "1.0.00000"))), recognitionMode, // SDK.RecognitionMode.Interactive  (Options - Interactive/Conversation/Dictation)
+    language, // Supported laguages are specific to each recognition mode. Refer to docs.
+    format); // SDK.SpeechResultFormat.Simple (Options - Simple/Detailed)
+    // Alternatively use SDK.CognitiveTokenAuthentication(fetchCallback, fetchOnExpiryCallback) for token auth
+    var authentication = new SDK.CognitiveSubscriptionKeyAuthentication(subscriptionKey);
+    return SDK.Recognizer.Create(recognizerConfig, authentication);
+}
+function RecognizerStart(SDK, recognizer) {
+    recognizer.Recognize(function (event) {
+        /*
+         Alternative syntax for typescript devs.
+         if (event instanceof SDK.RecognitionTriggeredEvent)
+         */
+        switch (event.Name) {
+            case "RecognitionTriggeredEvent":
+                UpdateStatus("Initializing");
+                break;
+            case "ListeningStartedEvent":
+                UpdateStatus("Listening");
+                break;
+            case "RecognitionStartedEvent":
+                UpdateStatus("Listening_Recognizing");
+                break;
+            case "SpeechStartDetectedEvent":
+                UpdateStatus("Listening_DetectedSpeech_Recognizing");
+                console.log(JSON.stringify(event.Result)); // check console for other information in result
+                break;
+            case "SpeechHypothesisEvent":
+                UpdateRecognizedHypothesis(event.Result.Text);
+                console.log(JSON.stringify(event.Result)); // check console for other information in result
+                break;
+            case "SpeechEndDetectedEvent":
+                OnSpeechEndDetected();
+                UpdateStatus("Processing_Adding_Final_Touches");
+                console.log(JSON.stringify(event.Result)); // check console for other information in result
+                break;
+            case "SpeechSimplePhraseEvent":
+                UpdateRecognizedPhrase(JSON.stringify(event.Result, null, 3));
+                break;
+            case "SpeechDetailedPhraseEvent":
+                UpdateRecognizedPhrase(JSON.stringify(event.Result, null, 3));
+                break;
+            case "RecognitionEndedEvent":
+                OnComplete();
+                UpdateStatus("Idle");
+                console.log(JSON.stringify(event)); // Debug information
+                break;
+        }
+    })
+        .On(function () {
+        // The request succeeded. Nothing to do here.
+    }, function (error) {
+        console.error(error);
+    });
+}
+
+function RecognizerStop(SDK, recognizer) {
+    // recognizer.AudioSource.Detach(audioNodeId) can be also used here. (audioNodeId is part of ListeningStartedEvent)
+    recognizer.AudioSource.TurnOff();
+}
+
+// request handler
 function handler(req, res) {
     var filepath = (req.url === '/') ? ('./index.html') : ('.' + req.url);
     var contentType = mimes[path.extname(filepath)];
@@ -52,6 +132,22 @@ function handler(req, res) {
         }
     })
 }
+
+function Setup() {
+            recognizer = RecognizerSetup(SDK, SDK.RecognitionMode.Interactive, en-IN, SDK.SpeechResultFormat[Simple], key);
+        }
+
+function OnSpeechEndDetected() {
+            socket.emit('OnSpeechEndDetected');
+        }
+
+function UpdateRecognizedPhrase(json) {
+             socket.emit('update_text', json);
+        }
+
+function OnComplete() {
+            socket.emit('OnComplete');
+        }
 
 io.on('connection', function (socket) {
 
@@ -104,6 +200,27 @@ io.on('connection', function (socket) {
                 socket.emit('nlp', response);
         });
     });
+
+    socket.on('start', function () {
+        if(!recognizer) {
+            Setup();
+        }
+
+        RecognizerStart(SDK, recognizer);
+    });
+
+    socket.on('stop', function() {
+        RecognizerStop(SDK);
+    });
+
+    socket.on('Initialize', function() {
+        Initialize(function (speechSdk) {
+            console.log('Initializing');
+            SDK = speechSdk;
+            startBtn.disabled = false;
+        });
+    });
+
 });
 
 

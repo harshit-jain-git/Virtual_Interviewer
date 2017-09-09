@@ -3,6 +3,8 @@ $(function() {
 
     var $textInput = $('#textInput'),
         $submit_button = $('.submit_button'),
+	    $start_button = $('#start_button'),
+	    $stop_button = $('#stop_button'),
         text_object = {"text":""},
         text = "",
         index = 0,
@@ -20,7 +22,7 @@ $(function() {
             'On a scale of one to ten, rate me as an interviewer?'];
 
         // Initiate the first question ...
-        $question.html(questions[index++]);
+        $question.html(questions[index++]);     
 
     // Applied globally on all textareas with the "autoExpand" class
     $(document)
@@ -41,6 +43,9 @@ $(function() {
     function cleanInput(input) {
         return $('<div/>').text(input).text();
     }
+
+    socket.emit('Initialize');
+
     
     $submit_button.click(function (e) {
         e.preventDefault();
@@ -53,7 +58,35 @@ $(function() {
         // socket.emit('nlp', text_object);
     });
     
+    $start_button.click(function (e) {
+	    e.preventDefault();
+        $start_button.disabled = true;
+        $stop_button.disabled = false;
+        $textInput.val('');
+	    socket.emit('start');
+    });  
+
+    $stop_button.click(function (e) {
+	    e.preventDefault();
+        $start_button.disabled = false;
+        $stop_button.disabled = true;    	
+	    socket.emit('stop');
+	
+    });  
+
+    socket.on('update_text', function (json) {
+    	$textInput.innerHTML = json.DisplayText;
+    });
     
+    socket.on('OnSpeechEndDetected', function(){
+        $stop_button.disabled = true; 
+    });
+
+    socket.on('OnComplete', function() {
+        $start_button.disabled = false;
+        $stop_button.disabled = true;
+    });
+
     socket.on('tone_analyze',function (res) {
         var json = res.document_tone;
         // console.log(json);
@@ -98,9 +131,8 @@ $(function() {
         }
         $question.html(questions[index++]);
     });
+
     
-    socket.on('nlp', function (res)  {
-    });
 
     function round(value, decimals) {
         return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
